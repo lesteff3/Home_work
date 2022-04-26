@@ -2,7 +2,6 @@ import csv
 from typing import List
 
 
-
 def write_file(*, file_to_write: str, fields: List, rows: List[List]):
     with open(file_to_write, 'w', newline='') as csv_file:
         csv_writer = csv.writer(csv_file, delimiter=';')
@@ -55,20 +54,20 @@ def count_sum(*, file_to_read: str):
         print(f'Общая сумма всех товаров = {dist} $')
 
 
+def decrease_amount(*, file_to_read: str):
+    with open(file_to_read, 'r') as decrease:
+        amount = csv.reader(decrease, delimiter=';')
+        fields = next()
+        my_list = []
+        new_list = []
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        for row in amount:
+            row_amount = row[2]
+            x = int(row_amount)
+            my_list.append(x)
+        minus = int(input('Введите число на которое хотите уменьшить '
+                          'кол-во товара : '))
+        for j in my_list:
+            j -= minus
+            new_list.append(j)
+        print(f'Новое кол-во товара {new_list}')

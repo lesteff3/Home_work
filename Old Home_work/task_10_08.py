@@ -21,4 +21,5 @@ csv_utils.write_file(file_to_write='file_with_price.csv', fields=fields, rows=ro
 rows_del = csv_utils.delete_by_position(rows=rows_add, position=1)
 csv_utils.write_file(file_to_write='file_with_price.csv', fields=fields, rows=rows_del)
 csv_utils.count_sum(file_to_read='file_with_price.csv')
-csv_utils.found_max_price(file_to_read='file_with_price.csv')
+csv_utils.decrease_amount(file_to_read='file_with_price.csv')
+csv_utils.decrease_amount(file_to_read='file_with_price.csv')
