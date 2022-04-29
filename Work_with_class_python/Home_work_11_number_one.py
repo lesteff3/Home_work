@@ -73,10 +73,11 @@ cat.sleep()
 class Parrot:
 
 
-    def __init__(self, name, age, master):
+    def __init__(self, name, age, master, speed):
         self.name = name
         self.age = age
         self.master = master
+        self.speed = speed
 
     def fly(self):
         print(f'{self.name} Flying!')
@@ -94,11 +95,16 @@ class Parrot:
     def sleep(self):
         print(f'{self.name} sleep')
 
+    def speed(self, speed):
+        if not speed:
+            speed = 5
 
-parrot = Parrot(name='Roma', age=14, master='Slava')
-parrot.run()
-parrot.jump()
-parrot.fly()
-parrot.birthday()
-parrot.sleep()
+        self.speed = self.speed + speed
+        return self.speed
+
+
+
+parrot = Parrot(name='Roma', age=14, master='Slava', speed=5)
+
+
 
