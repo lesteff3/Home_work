@@ -6,11 +6,30 @@ class MyTime:
         if len(args) == 3:
             self.hours, self.minutes, self.seconds = args
         else:
-            self.hours, self.minutes, self.seconds = 0, 0, 0
+            self.hours, self.minutes, self.seconds = 00, 00, 00
+        min = 60
+        sec = 60
+        hours = 24
+
+
+
 
         for i in args:
-            if i > 60:
-                print('Вы передали не существующее время')
+
+            if self.minutes > 59:
+                self.minutes -= min
+                self.hours += 1
+            elif self.seconds > 59:
+                self.seconds -= sec
+                self.minutes += 1
+            elif self.seconds > 59:
+                self.seconds -= sec
+                self.seconds = (str(self.seconds).zfill(2))
+            elif self.hours > 23:
+                self.hours -= hours
+                self.hours = (str(self.hours).zfill(2))
+            elif self.hours == 24:
+                self.hours = (str(self.hours).zfill(2))
 
 
     def __str__(self):
@@ -88,8 +107,8 @@ class MyTime:
 
 
 if __name__ == '__main__':
-    my_time = MyTime(20, 60, 20)
-    my_time2 = MyTime(16, 60, 31)
+    my_time = MyTime(23, 80, 70)
+    print(my_time)
 
 
 
