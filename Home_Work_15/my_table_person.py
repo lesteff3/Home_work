@@ -3,23 +3,41 @@ import sqlite3
 'CRUD - Create Read Update Delete'
 
 
-# class Person:
-#
-#     def __init__(self, db_name: str):
-#         self.db_name = db_name
-#
-#
-#     def create(self):
-#         pass
-#
-#     def read(self):
-#         pass
-#
-#     def update(self):
-#         pass
-#
-#     def delete(self):
-#         pass
+class Person:
+
+    def __init__(self, db_name: str):
+        self.db_name = db_name
+        self.connection = self.get_connection()
+
+
+    def get_connection(self):
+        try:
+            return sqlite3.connect(self.db_name)
+        except sqlite3.Error as e:
+            with open('log.txt') as file:
+                file.write(str(e))
+                return f'ERROR'
+
+
+    def get_cursore(self):
+        cursor = self.connection.cursor()
+        return cursor
+
+    def create_person(self, firstname, lastname, age: int):
+        INSERT_USER_DATA_QUARY = "  INSERT INTO user (firstname: str, lastname: str, age: int) VALUES (?, ?, ?)"
+        pass
+
+
+
+
+    def read(self):
+        pass
+
+    def update(self):
+        pass
+
+    def delete(self):
+        pass
 
 
 CREATE_TABLE_QUARY = """
@@ -44,6 +62,8 @@ SELECT_AGE_MORE_15_TO_18 = "SELECT * FROM user WHERE age = 15 or age < 18  "
 
 if __name__ == '__main__':
     sql = Person(db_name='my.db')
+    Person.create_person(firstname='Bonny', lastname='Kulchinskay', age=1)
+    Person.get_cursore()
     connection = sqlite3.connect('my.db')
     cursor = connection.cursor()
 
