@@ -1,0 +1,85 @@
+2022-05-20 14:34:25,678  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 14:39:02,108  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 14:51:53,244  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 14:51:53,317  - INFO  - create_person - Person maksim maksim successfully created!
+2022-05-20 14:52:28,898  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 14:52:28,976  - INFO  - create_person - Person maksim maksim successfully created!
+2022-05-20 14:53:16,534  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 14:53:16,605  - INFO  - create_person - Person maksim maksim successfully created!
+2022-05-20 14:53:58,585  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 14:53:58,667  - INFO  - create_person - Person maksim maksim successfully created!
+2022-05-20 14:54:56,528  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 14:54:56,619  - INFO  - create_person - Person maksim maksim successfully created!
+2022-05-20 15:09:21,177  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:09:21,351  - INFO  - create_person - Person maksim maksim successfully created!
+2022-05-20 15:10:06,293  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:10:06,374  - INFO  - create_person - Person maksim maksim successfully created!
+2022-05-20 15:10:06,504  - INFO  - delete_person - Person with 4 successfully delete!
+2022-05-20 15:10:31,067  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:10:31,159  - INFO  - delete_person - Person with 1 successfully delete!
+2022-05-20 15:10:39,235  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:10:39,236  - INFO  - delete_person - Person with 1 successfully delete!
+2022-05-20 15:11:41,044  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:11:41,045  - INFO  - delete_person - Person with 1 successfully delete!
+2022-05-20 15:11:51,152  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:11:51,259  - INFO  - delete_person - Person with 7 successfully delete!
+2022-05-20 15:12:02,919  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:12:02,992  - INFO  - delete_person - Person with 14 successfully delete!
+2022-05-20 15:12:16,580  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:12:16,649  - INFO  - delete_person - Person with 11 successfully delete!
+2022-05-20 15:12:31,980  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:12:32,096  - INFO  - delete_person - Person with 13 successfully delete!
+2022-05-20 15:12:43,297  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:12:43,379  - INFO  - delete_person - Person with 12 successfully delete!
+2022-05-20 15:12:48,733  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:12:48,822  - INFO  - delete_person - Person with 10 successfully delete!
+2022-05-20 15:12:57,035  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:12:57,143  - INFO  - delete_person - Person with 9 successfully delete!
+2022-05-20 15:12:59,634  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:12:59,711  - INFO  - delete_person - Person with 8 successfully delete!
+2022-05-20 15:13:02,294  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:13:02,296  - INFO  - delete_person - Person with 7 successfully delete!
+2022-05-20 15:13:04,970  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:13:05,069  - INFO  - delete_person - Person with 6 successfully delete!
+2022-05-20 15:13:07,544  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:13:07,689  - INFO  - delete_person - Person with 5 successfully delete!
+2022-05-20 15:13:09,997  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:13:10,000  - INFO  - delete_person - Person with 4 successfully delete!
+2022-05-20 15:13:11,993  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:13:12,053  - INFO  - delete_person - Person with 3 successfully delete!
+2022-05-20 15:13:13,973  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:13:14,050  - INFO  - delete_person - Person with 2 successfully delete!
+2022-05-20 15:13:16,382  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:13:16,384  - INFO  - delete_person - Person with 1 successfully delete!
+2022-05-20 15:14:48,768  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:14:48,858  - INFO  - create_person - Person Maksim Kulchinsky successfully created!
+2022-05-20 15:14:48,933  - INFO  - create_person - Person Gleb Skotnikov successfully created!
+2022-05-20 15:14:49,007  - INFO  - create_person - Person Slava Kulchinsky successfully created!
+2022-05-20 15:14:49,083  - INFO  - create_person - Person Djo Bansen successfully created!
+2022-05-20 15:18:07,554  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:18:07,655  - INFO  - create_person - Person Polina Rezontova successfully created!
+2022-05-20 15:18:47,158  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:18:47,159  - INFO  - read - Database was reading!
+2022-05-20 15:21:16,022  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:21:16,023  - INFO  - read - Database was reading!
+2022-05-20 15:22:18,794  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:22:18,795  - INFO  - read - Database was reading!
+2022-05-20 15:22:40,004  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:22:40,005  - INFO  - read - Database was reading!
+2022-05-20 15:26:50,766  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:27:05,855  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:27:05,945  - INFO  - uppdate - Person with Maksim successfully uppdate on Max!
+2022-05-20 15:27:51,317  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:27:51,318  - INFO  - uppdate - Person with Maksim successfully uppdate on Max!
+2022-05-20 15:28:16,426  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:28:16,427  - INFO  - uppdate - Person with Maksim successfully uppdate on Max!
+2022-05-20 15:28:44,971  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:28:44,971  - INFO  - uppdate - Person with Maksim successfully uppdate on Max!
+2022-05-20 15:29:31,390  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:29:31,390  - INFO  - read - Database was reading!
+2022-05-20 15:29:57,680  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:29:57,681  - INFO  - read - Database was reading!
+2022-05-20 15:30:45,599  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:30:45,600  - INFO  - yanger_25 - Database was reading!
+2022-05-20 15:32:24,134  - DEBUG  - __get_connection - Connection to db database.db successfully created!
+2022-05-20 15:32:24,134  - INFO  - read - Database was reading!
